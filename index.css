@@ -1,0 +1,22 @@
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 90%;
+  margin: 0;
+  padding: 0;
+}
+#controls{
+  display:flex;
+}
+#controls div{
+  width:50%;
+  display:flex;
+  flex-direction: column;
+}
+h2,h3{
+  margin: 0;
+}
